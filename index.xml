@@ -132,6 +132,15 @@
       </item>
       
       <item>
+        <title>Technical drawing guideline</title>
+        <link>http://technicaltoolbox.github.io/pharmaceutical/contentmanagement/sections/</link>
+        <pubDate>Tue, 19 Oct 2021 00:00:00 +0000</pubDate>
+        
+        <guid>http://technicaltoolbox.github.io/pharmaceutical/contentmanagement/sections/</guid>
+        <description>&lt;p&gt;&lt;span style=&#34;color:green; font-family:tahoma; font-size:1.2em;&#34;&gt;&lt;strong&gt;The technical drawing as an information carrier serves in the case of a production order as a binding means of communication between Design and Production.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;</description>
+      </item>
+      
+      <item>
         <title>Related content</title>
         <link>http://technicaltoolbox.github.io/pharmaceutical/relatedcontent/</link>
         <pubDate>Tue, 28 Jan 2020 00:39:09 +0900</pubDate>
@@ -204,15 +213,6 @@
 pectora summo. Redit teque digerit hominumque toris verebor lumina non cervice&lt;br /&gt;
 subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc&lt;br /&gt;
 caluere tempus&lt;/p&gt;</description>
-      </item>
-      
-      <item>
-        <title>Section</title>
-        <link>http://technicaltoolbox.github.io/pharmaceutical/contentmanagement/sections/</link>
-        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>http://technicaltoolbox.github.io/pharmaceutical/contentmanagement/sections/</guid>
-        <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
       </item>
       
       <item>
