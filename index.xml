@@ -134,10 +134,11 @@
       <item>
         <title>Dimension Tolerance</title>
         <link>http://technicaltoolbox.github.io/mechanical/tolerancesfits/dimensiontolerances/</link>
-        <pubDate>Tue, 20 Oct 2020 00:38:25 +0900</pubDate>
+        <pubDate>Sat, 23 Oct 2021 00:38:25 +0900</pubDate>
         
         <guid>http://technicaltoolbox.github.io/mechanical/tolerancesfits/dimensiontolerances/</guid>
-        <description>Tolerance: general definition H2{color:navy}H3{color:royalblue}Allocation of tolerances The absolutely precise production of components to the dimension indicated in the technical drawing, the nominal dimension, is not possible for reasons of manufacturing or not appropriate for reasons of cost. It is possible to determine, however, the permissible variations from these nominal dimensions. These are described as deviations or limit deviations. In addition, the variation from the geometrical shapes represented or their position relative to each other can be permitted or delimited in such a way that the function of the component is still ensured.</description>
+        <description>Tolerances for length and angular dimensions H2{color:navy}H3{color:royalblue}Dimensional tolerances in technical drawings DIN 406-12 (December 1992) defines methods for entering dimensions in technical drawings and specifically the tolerances for length and angular dimensions.
+Dimensional tolerances are entered in the form of deviations after the nominal dimension. In each case, the sum of the nominal dimension and the specific deviation gives the two permissible limit dimensions between which the actual dimension of the finished component may lie.</description>
       </item>
       
       <item>
