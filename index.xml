@@ -137,7 +137,7 @@
         <pubDate>Sat, 23 Oct 2021 00:38:25 +0900</pubDate>
         
         <guid>http://technicaltoolbox.github.io/mechanical/tolerancesfits/dimensiontolerances/</guid>
-        <description>Tolerances for length and angular dimensions H2{color:navy}H3{color:royalblue}Dimensional tolerances in technical drawings DIN 406-12 (December 1992) defines methods for entering dimensions in technical drawings and specifically the tolerances for length and angular dimensions.
+        <description>Tolerances for length and angular dimensions H2{color:navy}H3{color:royalblue}H4{color:steelblue}Dimensional tolerances in technical drawings DIN 406-12 (December 1992) defines methods for entering dimensions in technical drawings and specifically the tolerances for length and angular dimensions.
 Dimensional tolerances are entered in the form of deviations after the nominal dimension. In each case, the sum of the nominal dimension and the specific deviation gives the two permissible limit dimensions between which the actual dimension of the finished component may lie.</description>
       </item>
       

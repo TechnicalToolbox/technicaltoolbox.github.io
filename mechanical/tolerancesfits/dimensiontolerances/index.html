@@ -1712,6 +1712,9 @@ H2{color:navy}
 <style>
 H3{color:royalblue}
 </style>
+<style>
+H4{color:steelblue}
+</style>
 <h3 id="dimensional-tolerances-in-technical-drawings">Dimensional tolerances in technical drawings</h3>
 <p>DIN 406-12 (December 1992) defines methods for entering dimensions in technical drawings and specifically the tolerances for length and angular dimensions.</p>
 <p>Dimensional tolerances are entered in the form of deviations after the nominal dimension. In each case, the sum of the nominal dimension and the specific deviation gives the two permissible limit dimensions between which the actual dimension of the finished component may lie.</p>
@@ -1729,39 +1732,20 @@ H3{color:royalblue}
 <p>The following table shows further rules for the entry of tolerances for length and angular dimensions.</p>
 <h3 id="measurement-of-components">Measurement of components</h3>
 <p>During measurement of the finished component, the actual dimension, namely the size of the feature, is determined. The actual dimension is determined from various local actual dimensions that can be measured on any cross-section of the feature. Local actual dimensions are defined by a sphere diameter or can be determined by means of two point measurement, see Figure 2. The actual dimension and the local actual dimensions may not be more or less than the upper and lower limit dimension (maximum and minimum dimension) respectively.</p>
-<ul>
-<li>
-<p><em><strong>Deviation</strong></em></p>
-<p>Entry of tolerances for length and angular dimensions in the form of values after the nominal dimension</p>
-</li>
-<li>
-<p><em><strong>Symbols for tolerance classes</strong></em></p>
-<p>The use of fit systems in accordance with the ISO system for limit dimensions and fits, starting Page 376</p>
-</li>
-<li>
-<p><em><strong>Symbols for geometrical and positional tolerances</strong></em></p>
-<p>Identification of the permissible variation of geometry, direction, location or runout by means of symbols, starting Page 401</p>
-</li>
-<li>
-<p><em><strong>Tolerancing principle starting Page 408</strong></em></p>
-</li>
-<li>
-<p><em><strong>General tolerances</strong></em></p>
-<p>Global indication of tolerances for the simplification of drawings, starting Page 411</p>
-</li>
-</ul>
-<h3 id="dimensional-tolerances-in-drawings">Dimensional tolerances in drawings</h3>
-<p>The following image shows the nominal dimension, limit deviations and limit dimensions.</p>
+<h3 id="tolerance-zones-dimensional-and-positional-tolerances">Tolerance zones, dimensional and positional tolerances</h3>
+<p>The following example shows that dimensional tolerances alone are not sufficient. Drawings that contain dimensional tolerances only may be ambiguous. The task is to define the position of a hole axis in a plate in relation to the lateral surfaces and delimit possible variations of the axis by means of tolerancing.</p>
+<h4 id="1-approach-dimensional-tolerances">1. Approach: Dimensional tolerances</h4>
+<p>The axis of the hole is toleranced by means of deviations. This generates a rectangular tolerance zone, see Figure 3. The ideal situation is shown in section no. 1. Section no. 2 shows the actual situation, namely a workpiece with deviations.</p>
 <figure >
   
     
-    <img data-src="../../../mechanical/tandf/nominaldimension.jpg" alt="image alt" data-caption="no.1 Drawing with length dimension and tolerance Appropriate representation of nominal dimension, limit dimensions and deviations" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='24pt' height='24pt' viewBox='0 0 24 24' version='1.1'%3E%3Cg id='surface1035795'%3E%3Cpath style=' stroke:none;fill-rule:nonzero;fill:rgb(80%25,80%25,80%25);fill-opacity:1;' d='M 4 4 C 2.90625 4 2 4.90625 2 6 L 2 18 C 2 19.09375 2.90625 20 4 20 L 20 20 C 21.09375 20 22 19.09375 22 18 L 22 6 C 22 4.90625 21.09375 4 20 4 Z M 4 6 L 20 6 L 20 18 L 4 18 Z M 4 6 '/%3E%3C/g%3E%3C/svg%3E%0A" class="lazyload" width="500px" height=""/>
+    <img data-src="../../../mechanical/tandf/dimensionaltolerances.jpg" alt="image alt" data-caption="tH = horizontal tolerance range, tV = vertical tolerance range, AT = tolerance zone for hole axis; no. 1 Dimensional tolerancing; no. 2 Workpiece subject to variations (exaggerated representation)" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='24pt' height='24pt' viewBox='0 0 24 24' version='1.1'%3E%3Cg id='surface1035795'%3E%3Cpath style=' stroke:none;fill-rule:nonzero;fill:rgb(80%25,80%25,80%25);fill-opacity:1;' d='M 4 4 C 2.90625 4 2 4.90625 2 6 L 2 18 C 2 19.09375 2.90625 20 4 20 L 20 20 C 21.09375 20 22 19.09375 22 18 L 22 6 C 22 4.90625 21.09375 4 20 4 Z M 4 6 L 20 6 L 20 18 L 4 18 Z M 4 6 '/%3E%3C/g%3E%3C/svg%3E%0A" class="lazyload" width="500px" height=""/>
     
   
   <figcaption>
-    <strong>Nominal dimension, limit deviations and limit dimensions</strong>:
+    <strong>Dimensional tolerances</strong>:
     
-    no.1 Drawing with length dimension and tolerance Appropriate representation of nominal dimension, limit dimensions and deviations
+    tH = horizontal tolerance range, tV = vertical tolerance range, AT = tolerance zone for hole axis; no. 1 Dimensional tolerancing; no. 2 Workpiece subject to variations (exaggerated representation)
     
       
       
@@ -1769,80 +1753,48 @@ H3{color:royalblue}
   </figcaption>
   
 </figure>
-<h3 id="definition-of-terms">Definition of terms</h3>
-<p>For the indication of dimensions, deviations and tolerances, the standard DIN ISO 286-1 (November 1990) defines the following fixed terms:</p>
-<table>
-<thead>
-<tr>
-<th>Name   </th>
-<th>Symbol   </th>
-<th>Comments   </th>
-<th>Other</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Nominal dimension</td>
-<td><em>N</em></td>
-<td>Dimension for indication of the size of a part in the drawing. This dimension is used, with the aid of the upper and lower limit deviation, to derive the limit dimensions   </td>
-<td>DIN 7182-1</td>
-</tr>
-<tr>
-<td>Actual dimension</td>
-<td><em>l</em></td>
-<td>Dimension that is determined by measurement of a workpiece   </td>
-<td>DIN 7182-1</td>
-</tr>
-<tr>
-<td>Local actual dimension</td>
-<td>-</td>
-<td>Any individual distance in any cross-section of a form element   </td>
-<td></td>
-</tr>
-<tr>
-<td>Limit dimension</td>
-<td><em>G</em></td>
-<td>The actual dimension of a workpiece may lie between the two limit dimensions “maximum dimension” and “minimum dimension” (including the limit dimensions themselves)   </td>
-<td>DIN 7182-1</td>
-</tr>
-<tr>
-<td>Maximum dimension</td>
-<td><em>G0</em></td>
-<td>The larger permitted dimension of the two limit dimensions   </td>
-<td>DIN 7182-1</td>
-</tr>
-<tr>
-<td>Minimum dimension</td>
-<td><em>Gu</em></td>
-<td>The smaller permitted dimension of the two limit dimensions   </td>
-<td>DIN 7182-1</td>
-</tr>
-<tr>
-<td>Limit deviation, upper</td>
-<td>ES, es</td>
-<td>Maximum dimension minus nominal dimension (designation ES for holes, es for shafts)   </td>
-<td>DIN 7182-1 &amp; DIN ISO 286-1</td>
-</tr>
-<tr>
-<td>Limit deviation, lower</td>
-<td>EI, ei</td>
-<td>Minimum dimension minus nominal dimension (designation EI for holes, ei for shafts)   </td>
-<td>DIN 7182-1 &amp; DIN ISO 286-1</td>
-</tr>
-<tr>
-<td>Dimensional tolerance</td>
-<td><em>T</em></td>
-<td>Maximum dimension minus minimum dimension   </td>
-<td>DIN 7182-1</td>
-</tr>
-<tr>
-<td>Fundamental tolerance</td>
-<td>IT</td>
-<td>International tolerance; dimensional tolerance in the ISO system of fits   </td>
-<td>DIN 7182-1 &amp; DIN ISO 286-1</td>
-</tr>
-</tbody>
-</table>
+<p>It is clear that the use of tolerances alone is not sufficient since this may lead to ambiguity. Datums are important for production and inspection. A complete datum system will therefore be necessary in future for each workpiece.</p>
+<h4 id="2-approach-positional-tolerances-with-datum-system">2. Approach: Positional tolerances with datum system</h4>
+<p>The allocation of positional tolerances with three datum planes gives the following situation, see Figure 4. The ideal situation is shown in section no.1 . Section no. 2 shows the actual situation, namely a workpiece with deviations.</p>
+<figure >
+  
+    
+    <img data-src="../../../mechanical/tandf/positionaltolerances.jpg" alt="image alt" data-caption="AT = tolerance zone for hole axis; no. 1 Positional tolerancing; no. 2 Workpiece subject to variations (exaggerated representation)" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='24pt' height='24pt' viewBox='0 0 24 24' version='1.1'%3E%3Cg id='surface1035795'%3E%3Cpath style=' stroke:none;fill-rule:nonzero;fill:rgb(80%25,80%25,80%25);fill-opacity:1;' d='M 4 4 C 2.90625 4 2 4.90625 2 6 L 2 18 C 2 19.09375 2.90625 20 4 20 L 20 20 C 21.09375 20 22 19.09375 22 18 L 22 6 C 22 4.90625 21.09375 4 20 4 Z M 4 6 L 20 6 L 20 18 L 4 18 Z M 4 6 '/%3E%3C/g%3E%3C/svg%3E%0A" class="lazyload" width="500px" height=""/>
+    
+  
+  <figcaption>
+    <strong>Positional tolerances</strong>:
+    
+    AT = tolerance zone for hole axis; no. 1 Positional tolerancing; no. 2 Workpiece subject to variations (exaggerated representation)
+    
+      
+      
+    
+  </figcaption>
+  
+</figure>
+<h4 id="3-comparison">3. Comparison</h4>
+<p>The following representation shows a comparison of the position of the hole axis for dimensional and positional tolerances:</p>
+<figure >
+  
+    
+    <img data-src="../../../mechanical/tandf/comparison.jpg" alt="image alt" data-caption="no. 1 Dimensional tolerancing; no. 2 Positional tolerancing" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='24pt' height='24pt' viewBox='0 0 24 24' version='1.1'%3E%3Cg id='surface1035795'%3E%3Cpath style=' stroke:none;fill-rule:nonzero;fill:rgb(80%25,80%25,80%25);fill-opacity:1;' d='M 4 4 C 2.90625 4 2 4.90625 2 6 L 2 18 C 2 19.09375 2.90625 20 4 20 L 20 20 C 21.09375 20 22 19.09375 22 18 L 22 6 C 22 4.90625 21.09375 4 20 4 Z M 4 6 L 20 6 L 20 18 L 4 18 Z M 4 6 '/%3E%3C/g%3E%3C/svg%3E%0A" class="lazyload" width="500px" height=""/>
+    
+  
+  <figcaption>
+    <strong>Comparison: Dimensional and positional tolerances</strong>:
+    
+    no. 1 Dimensional tolerancing; no. 2 Positional tolerancing
+    
+      
+      
+    
+  </figcaption>
+  
+</figure>
+<h3 id="conclusion">Conclusion</h3>
+<p>The different tolerancing systems lead to different positions for the hole axis. The positional tolerance is significantly “stronger” than the dimensional tolerance, since the datums are defined. With particular regard to foreign manufacturing of components, the formation of a suitable datum system is the most important task in the positional tolerancing of a component.</p>
+<p>It is therefore advisable to indicate a complete datum system for each workpiece. The datums are important for production and inspection.</p>
 
   </article>
 </div>
@@ -1880,8 +1832,14 @@ H3{color:royalblue}
         <li><a href="#rules-for-the-entry-of-dimensional-tolerances-in-drawings">Rules for the entry of dimensional tolerances in drawings</a></li>
         <li><a href="#entry-in-drawings-of-deviations-limit-dimensions-and-tolerance-classes">Entry in drawings of deviations, limit dimensions and tolerance classes</a></li>
         <li><a href="#measurement-of-components">Measurement of components</a></li>
-        <li><a href="#dimensional-tolerances-in-drawings">Dimensional tolerances in drawings</a></li>
-        <li><a href="#definition-of-terms">Definition of terms</a></li>
+        <li><a href="#tolerance-zones-dimensional-and-positional-tolerances">Tolerance zones, dimensional and positional tolerances</a>
+          <ul>
+            <li><a href="#1-approach-dimensional-tolerances">1. Approach: Dimensional tolerances</a></li>
+            <li><a href="#2-approach-positional-tolerances-with-datum-system">2. Approach: Positional tolerances with datum system</a></li>
+            <li><a href="#3-comparison">3. Comparison</a></li>
+          </ul>
+        </li>
+        <li><a href="#conclusion">Conclusion</a></li>
       </ul>
     </li>
   </ul>
