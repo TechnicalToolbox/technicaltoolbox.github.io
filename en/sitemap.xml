@@ -48,7 +48,7 @@
   </url>
   
   <url>
-    <loc>http://technicaltoolbox.github.io/mechanical/tolerancesfits/tolerances/</loc>
+    <loc>http://technicaltoolbox.github.io/mechanical/tolerancesfits/tolerancesdefinition/</loc>
     <lastmod>2020-10-20T00:38:25+09:00</lastmod>
   </url>
   
@@ -85,6 +85,11 @@
   <url>
     <loc>http://technicaltoolbox.github.io/pharmaceutical/gettingstarted/</loc>
     <lastmod>2020-01-28T00:34:39+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://technicaltoolbox.github.io/mechanical/tolerancesfits/dimensiontolerances/</loc>
+    <lastmod>2020-10-20T00:38:25+09:00</lastmod>
   </url>
   
   <url>
