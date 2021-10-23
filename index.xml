@@ -132,7 +132,7 @@
       </item>
       
       <item>
-        <title>Dimension Tolerance</title>
+        <title>Dimension Tolerances</title>
         <link>http://technicaltoolbox.github.io/mechanical/tolerancesfits/dimensiontolerances/</link>
         <pubDate>Sat, 23 Oct 2021 00:38:25 +0900</pubDate>
         
@@ -148,6 +148,15 @@ Dimensional tolerances are entered in the form of deviations after the nominal d
         
         <guid>http://technicaltoolbox.github.io/pharmaceutical/depth1/ttttest/</guid>
         <description></description>
+      </item>
+      
+      <item>
+        <title>ISO tolerances and fits</title>
+        <link>http://technicaltoolbox.github.io/mechanical/tolerancesfits/iso/</link>
+        <pubDate>Sat, 23 Oct 2021 00:38:25 +0900</pubDate>
+        
+        <guid>http://technicaltoolbox.github.io/mechanical/tolerancesfits/iso/</guid>
+        <description>ISO tolerances and fits H2{color:navy}H3{color:royalblue}H4{color:steelblue}Functions and areas of application Precise manufacturing and precise measurement of machine parts are the basis for interchangeable manufacture and the prerequisite for economical series and mass production in the entire field of technology. Systematic production and the easy repair of technical devices is only possible if the dimensions of mutually interchangeable machine parts lie within certain limits and these parts can be assembled or replaced (without special fitting or adaptation work).</description>
       </item>
       
       <item>
