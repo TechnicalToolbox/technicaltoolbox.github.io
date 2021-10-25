@@ -2,43 +2,43 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tolerances and Fits on Technical ToolBox</title>
-    <link>http://technicaltoolbox.github.io/mechanical/tolerancesfits/</link>
+    <link>https://technicaltoolbox.github.io/mechanical/tolerancesfits/</link>
     <description>Recent content in Tolerances and Fits on Technical ToolBox</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Thu, 30 Jan 2020 10:10:56 +0900</lastBuildDate>
     
-        <atom:link href="http://technicaltoolbox.github.io/mechanical/tolerancesfits/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://technicaltoolbox.github.io/mechanical/tolerancesfits/index.xml" rel="self" type="application/rss+xml" />
     
     
     
       
       <item>
         <title>Tolerance definition</title>
-        <link>http://technicaltoolbox.github.io/mechanical/tolerancesfits/tolerancesdefinition/</link>
+        <link>https://technicaltoolbox.github.io/mechanical/tolerancesfits/tolerancesdefinition/</link>
         <pubDate>Tue, 20 Oct 2020 00:38:25 +0900</pubDate>
         
-        <guid>http://technicaltoolbox.github.io/mechanical/tolerancesfits/tolerancesdefinition/</guid>
+        <guid>https://technicaltoolbox.github.io/mechanical/tolerancesfits/tolerancesdefinition/</guid>
         <description>Tolerance: general definition H2{color:navy}H3{color:royalblue}Allocation of tolerances The absolutely precise production of components to the dimension indicated in the technical drawing, the nominal dimension, is not possible for reasons of manufacturing or not appropriate for reasons of cost. It is possible to determine, however, the permissible variations from these nominal dimensions. These are described as deviations or limit deviations. In addition, the variation from the geometrical shapes represented or their position relative to each other can be permitted or delimited in such a way that the function of the component is still ensured.</description>
       </item>
       
       <item>
         <title>Dimension tolerances</title>
-        <link>http://technicaltoolbox.github.io/mechanical/tolerancesfits/dimensiontolerances/</link>
+        <link>https://technicaltoolbox.github.io/mechanical/tolerancesfits/dimensiontolerances/</link>
         <pubDate>Sat, 23 Oct 2021 00:38:25 +0900</pubDate>
         
-        <guid>http://technicaltoolbox.github.io/mechanical/tolerancesfits/dimensiontolerances/</guid>
+        <guid>https://technicaltoolbox.github.io/mechanical/tolerancesfits/dimensiontolerances/</guid>
         <description>Tolerances for length and angular dimensions H2{color:navy}H3{color:royalblue}H4{color:steelblue}Dimensional tolerances in technical drawings DIN 406-12 (December 1992) defines methods for entering dimensions in technical drawings and specifically the tolerances for length and angular dimensions.
 Dimensional tolerances are entered in the form of deviations after the nominal dimension. In each case, the sum of the nominal dimension and the specific deviation gives the two permissible limit dimensions between which the actual dimension of the finished component may lie.</description>
       </item>
       
       <item>
         <title>ISO tolerances and fits</title>
-        <link>http://technicaltoolbox.github.io/mechanical/tolerancesfits/iso/</link>
+        <link>https://technicaltoolbox.github.io/mechanical/tolerancesfits/iso/</link>
         <pubDate>Sat, 23 Oct 2021 00:38:25 +0900</pubDate>
         
-        <guid>http://technicaltoolbox.github.io/mechanical/tolerancesfits/iso/</guid>
+        <guid>https://technicaltoolbox.github.io/mechanical/tolerancesfits/iso/</guid>
         <description>ISO tolerances and fits H2{color:navy}H3{color:royalblue}H4{color:steelblue}Functions and areas of application Precise manufacturing and precise measurement of machine parts are the basis for interchangeable manufacture and the prerequisite for economical series and mass production in the entire field of technology. Systematic production and the easy repair of technical devices is only possible if the dimensions of mutually interchangeable machine parts lie within certain limits and these parts can be assembled or replaced (without special fitting or adaptation work).</description>
       </item>
       
