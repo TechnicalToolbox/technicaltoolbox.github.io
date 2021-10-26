@@ -3,16 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://technicaltoolbox.github.io/ko/</loc>
+    <loc>https://technicaltoolbox.github.io/ko/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://technicaltoolbox.github.io/"
+                href="https://technicaltoolbox.github.io/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://technicaltoolbox.github.io/ko/"
+                href="https://technicaltoolbox.github.io/ko/"
                 />
   </url>
   
